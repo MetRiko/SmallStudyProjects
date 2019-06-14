@@ -1,0 +1,3 @@
+vhdl work "VGADriver.vhd"
+vhdl work "PowderSimulator.vhd"
+vhdl work "PowderToy.vhf"

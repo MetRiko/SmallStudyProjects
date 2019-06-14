@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jun 11 12:20:30 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "B" LOCATE = SITE "G15" LEVEL 1;
+COMP "G" LOCATE = SITE "H15" LEVEL 1;
+COMP "R" LOCATE = SITE "H14" LEVEL 1;
+COMP "HS" LOCATE = SITE "F15" LEVEL 1;
+COMP "VS" LOCATE = SITE "F14" LEVEL 1;
+COMP "CLK50" LOCATE = SITE "C9" LEVEL 1;
+COMP "PS2_Data" LOCATE = SITE "G13" LEVEL 1;
+COMP "PS2_Clk" LOCATE = SITE "G14" LEVEL 1;
+NET "CLK50_BUFGP/IBUFG" BEL "CLK50_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "CLK50_BUFGP/IBUFG" PERIOD = 20 ns HIGH 50%;
+SCHEMATIC END;
+

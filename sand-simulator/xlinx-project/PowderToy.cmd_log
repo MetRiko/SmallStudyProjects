@@ -1,0 +1,621 @@
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.xst" -ofn "C:/Users/lab/Desktop/238902/ProjektUCiSW-PowderToy/PowderToy.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 PowderToy.ngc PowderToy.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o PowderToy_map.ncd PowderToy.ngd PowderToy.pcf 
+par -w -intstyle ise -ol high -t 1 PowderToy_map.ncd PowderToy.ncd PowderToy.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PowderToy.twx PowderToy.ncd -o PowderToy.twr PowderToy.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f PowderToy.ut PowderToy.ncd 

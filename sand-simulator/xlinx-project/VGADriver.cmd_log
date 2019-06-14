@@ -1,0 +1,2 @@
+vhdtdtfi -lib work VGADriver.vhd -prj ProjektUCiSW-PowderToy -o VGADriver.spl -module VGADriver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGADriver.spl C:/Users/lab/ProjektUCiSW-PowderToy/VGADriver.sym 

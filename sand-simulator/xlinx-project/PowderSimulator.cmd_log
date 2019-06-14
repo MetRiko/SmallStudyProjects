@@ -1,0 +1,24 @@
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 
+vhdtdtfi -lib work PowderSimulator.vhd -prj ProjektUCiSW-PowderToy -o PowderSimulator.spl -module PowderSimulator -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PowderSimulator.spl C:/Users/lab/ProjektUCiSW-PowderToy/PowderSimulator.sym 

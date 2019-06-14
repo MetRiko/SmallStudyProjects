@@ -1,0 +1,78 @@
+if(rising_edge(clk_grav)) then         
+            -- stworzenie nowych
+            if(put_sand_flag = '1') then          
+               pixel_screen(put_sand_idx) <= true;
+            else
+            
+               for i in 40 downto 0 loop --4580 320
+                  
+                  if (pixel_screen(i) = true) then
+                     isSandMoved <= false;
+                  
+                     if (pixel_screen(i + 40) = false and i <= 160) then -- no floor  280
+                        isSandMoved <= true;
+                        pixel_screen(i + 40) <= true;
+                     else
+                     
+                        if (i > 0 and pixel_screen(i - 1) = false and pixel_screen(i + 39) = false) then -- and pixel_screen(i + 39) = false) then      
+                              isSandMoved <= true;
+                              pixel_screen(i - 1) <= true;
+                              --pixel_screen(i + 39) <= true;
+                        elsif (i < 2360 and pixel_screen(i + 1) = false and pixel_screen(i + 41) = false) then -- and pixel_screen(i + 41) = false) then
+                              isSandMoved <= true;
+                              pixel_screen(i + 1) <= true;
+                              --pixel_screen(i + 41) <= true;
+                              
+                        end if; -- no floor
+                  
+                     
+                     end if; -- i
+                     
+                     pixel_screen(i) <= not isSandMoved;
+                  
+               
+               
+--                  if (pixel_screen(i + 40) = false) then -- no floor
+--                     if (pixel_screen(i) = true) then
+--                        pixel_screen(i) <= false;
+--                        pixel_screen(i + 40) <= true;
+--                  
+--                  else -- floor
+--               
+--                  if (pixel_screen(i) = true and pixel_screen(i + 40) = false) then
+--                     pixel_screen(i) <= false;
+--                     pixel_screen(i + 40) <= true;
+--                     
+--                  elsif (i > 0 and pixel_screen(i - 1) = true and pixel_screen(i + 39) = false) then                        
+--                        pixel_screen(i) <= false;
+--                        pixel_screen(i + 39) <= true;
+--                  elsif (i < 2360 and pixel_screen(i + 1) = true and pixel_screen(i + 41) = false) then                     
+--                        pixel_screen(i) <= false;
+--                        pixel_screen(i + 41) <= true; 
+                     
+                     
+--                  else
+--                     isLeftEmpty <= i > 0 and pixel_screen(i - 1) = true and pixel_screen(i + 39) = false; 
+--                     isRightEmpty <= i < 2360 and pixel_screen(i + 1) = true and pixel_screen(i + 41) = false;
+--                     
+
+--                     if (isLeftEmpty and not isRightEmpty) then                        
+--                        pixel_screen(i) <= false;
+--                        pixel_screen(i + 39) <= true;
+--                     elsif (not isLeftEmpty and isRightEmpty) then                     
+--                        pixel_screen(i) <= false;
+--                        pixel_screen(i + 41) <= true;                     
+--                     elsif (isLeftEmpty and isRightEmpty) then
+--                        if (sandSide = false) then                     
+--                           pixel_screen(i) <= false;
+--                           pixel_screen(i + 39) <= true;                           
+--                        else                    
+--                           pixel_screen(i) <= false;
+--                           pixel_screen(i + 41) <= true;                           
+--                        end if;
+--                        sandSide <= not sandSide;
+                     --end if;
+                  end if;
+               end loop;
+              end if;
+         end if;

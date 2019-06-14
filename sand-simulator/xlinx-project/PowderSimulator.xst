@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/ProjektUCiSW-PowderToy/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/ProjektUCiSW-PowderToy/xst"
+elaborate
+-ifn PowderSimulator.prj
+-ifmt mixed
