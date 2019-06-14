@@ -1,0 +1,274 @@
+dla obu reprezentacji
+
+V = 10, 20, 30, 40, 50
+
+D = 25%, 50%, 75%, 99%
+
+100 losowych instancji -> wynik uśrednić
+
+4 algorytmy:
+Prim, Kruskal, Dijkstra, Bellman-Ford
+
+======================================
+MatrixGraph:
+
+V = 10 density = 0.25
+Prim = 20 micro s
+Kruskal = 10 micro s
+Dijkstra = 0 micro s
+Bellman-Ford = 10 micro s
+
+V = 10 density = 0.5
+Prim = 60 micro s
+Kruskal = 20 micro s
+Dijkstra = 0 micro s
+Bellman-Ford = 0 micro s
+
+V = 10 density = 0.75
+Prim = 60 micro s
+Kruskal = 30 micro s
+Dijkstra = 0 micro s
+Bellman-Ford = 0 micro s
+
+V = 10 density = 0.99
+Prim = 60 micro s
+Kruskal = 50 micro s
+Dijkstra = 0 micro s
+Bellman-Ford = 0 micro s
+----------------------
+
+
+V = 20 density = 0.25
+Prim = 80 micro s
+Kruskal = 60 micro s
+Dijkstra = 0 micro s
+Bellman-Ford = 30 micro s
+
+V = 20 density = 0.5
+Prim = 220 micro s
+Kruskal = 40 micro s
+Dijkstra = 10 micro s
+Bellman-Ford = 80 micro s
+
+V = 20 density = 0.75
+Prim = 320 micro s
+Kruskal = 140 micro s
+Dijkstra = 10 micro s
+Bellman-Ford = 60 micro s
+
+V = 20 density = 0.99
+Prim = 520 micro s
+Kruskal = 180 micro s
+Dijkstra = 10 micro s
+Bellman-Ford = 50 micro s
+----------------------
+
+
+V = 30 density = 0.25
+Prim = 220 micro s
+Kruskal = 130 micro s
+Dijkstra = 20 micro s
+Bellman-Ford = 180 micro s
+
+V = 30 density = 0.5
+Prim = 1070 micro s
+Kruskal = 380 micro s
+Dijkstra = 20 micro s
+Bellman-Ford = 210 micro s
+
+V = 30 density = 0.75
+Prim = 1750 micro s
+Kruskal = 640 micro s
+Dijkstra = 10 micro s
+Bellman-Ford = 230 micro s
+
+V = 30 density = 0.99
+Prim = 2500 micro s
+Kruskal = 830 micro s
+Dijkstra = 0 micro s
+Bellman-Ford = 220 micro s
+----------------------
+
+
+V = 40 density = 0.25
+Prim = 680 micro s
+Kruskal = 310 micro s
+Dijkstra = 30 micro s
+Bellman-Ford = 320 micro s
+
+V = 40 density = 0.5
+Prim = 2510.01 micro s
+Kruskal = 790 micro s
+Dijkstra = 20 micro s
+Bellman-Ford = 530 micro s
+
+V = 40 density = 0.75
+Prim = 4620 micro s
+Kruskal = 1440 micro s
+Dijkstra = 20 micro s
+Bellman-Ford = 430 micro s
+
+V = 40 density = 0.99
+Prim = 6940.01 micro s
+Kruskal = 2030 micro s
+Dijkstra = 20 micro s
+Bellman-Ford = 510 micro s
+----------------------
+
+
+V = 50 density = 0.25
+Prim = 1860.03 micro s
+Kruskal = 540 micro s
+Dijkstra = 40 micro s
+Bellman-Ford = 710 micro s
+
+V = 50 density = 0.5
+Prim = 5560.04 micro s
+Kruskal = 1570 micro s
+Dijkstra = 60 micro s
+Bellman-Ford = 1030 micro s
+
+V = 50 density = 0.75
+Prim = 10670 micro s
+Kruskal = 3710.04 micro s
+Dijkstra = 30 micro s
+Bellman-Ford = 970 micro s
+
+V = 50 density = 0.99
+Prim = 18560.9 micro s
+Kruskal = 5460.04 micro s
+Dijkstra = 30 micro s
+Bellman-Ford = 940 micro s
+----------------------
+
+======================================
+ListGraph:
+
+V = 10 density = 0.25
+Prim = 10 micro s
+Kruskal = 40 micro s
+Dijkstra = 0 micro s
+Bellman-Ford = 60 micro s
+
+V = 10 density = 0.5
+Prim = 30 micro s
+Kruskal = 50 micro s
+Dijkstra = 10 micro s
+Bellman-Ford = 10 micro s
+
+V = 10 density = 0.75
+Prim = 80 micro s
+Kruskal = 50 micro s
+Dijkstra = 20 micro s
+Bellman-Ford = 110 micro s
+
+V = 10 density = 0.99
+Prim = 90 micro s
+Kruskal = 80 micro s
+Dijkstra = 0 micro s
+Bellman-Ford = 100 micro s
+----------------------
+
+
+V = 20 density = 0.25
+Prim = 60 micro s
+Kruskal = 30 micro s
+Dijkstra = 30 micro s
+Bellman-Ford = 970 micro s
+
+V = 20 density = 0.5
+Prim = 360 micro s
+Kruskal = 150 micro s
+Dijkstra = 40 micro s
+Bellman-Ford = 970 micro s
+
+V = 20 density = 0.75
+Prim = 500 micro s
+Kruskal = 230 micro s
+Dijkstra = 50 micro s
+Bellman-Ford = 1060 micro s
+
+V = 20 density = 0.99
+Prim = 520 micro s
+Kruskal = 220 micro s
+Dijkstra = 60 micro s
+Bellman-Ford = 1030 micro s
+----------------------
+
+
+V = 30 density = 0.25
+Prim = 320 micro s
+Kruskal = 180 micro s
+Dijkstra = 120 micro s
+Bellman-Ford = 2940 micro s
+
+V = 30 density = 0.5
+Prim = 910 micro s
+Kruskal = 330 micro s
+Dijkstra = 230 micro s
+Bellman-Ford = 3950 micro s
+
+V = 30 density = 0.75
+Prim = 1630 micro s
+Kruskal = 600 micro s
+Dijkstra = 140 micro s
+Bellman-Ford = 4700 micro s
+
+V = 30 density = 0.99
+Prim = 2660 micro s
+Kruskal = 850 micro s
+Dijkstra = 210 micro s
+Bellman-Ford = 4910 micro s
+----------------------
+
+
+V = 40 density = 0.25
+Prim = 880 micro s
+Kruskal = 250 micro s
+Dijkstra = 300 micro s
+Bellman-Ford = 9380.04 micro s
+
+V = 40 density = 0.5
+Prim = 2490 micro s
+Kruskal = 1180.01 micro s
+Dijkstra = 310 micro s
+Bellman-Ford = 12330 micro s
+
+V = 40 density = 0.75
+Prim = 5160 micro s
+Kruskal = 1710 micro s
+Dijkstra = 270 micro s
+Bellman-Ford = 13990 micro s
+
+V = 40 density = 0.99
+Prim = 7490 micro s
+Kruskal = 2290 micro s
+Dijkstra = 390 micro s
+Bellman-Ford = 15710.1 micro s
+----------------------
+
+
+V = 50 density = 0.25
+Prim = 1620 micro s
+Kruskal = 640 micro s
+Dijkstra = 460 micro s
+Bellman-Ford = 22001 micro s
+
+V = 50 density = 0.5
+Prim = 5890 micro s
+Kruskal = 2010 micro s
+Dijkstra = 830 micro s
+Bellman-Ford = 30551.1 micro s
+
+V = 50 density = 0.75
+Prim = 13330.1 micro s
+Kruskal = 3900 micro s
+Dijkstra = 690 micro s
+Bellman-Ford = 36461.6 micro s
+
+V = 50 density = 0.99
+Prim = 18571 micro s
+Kruskal = 6010.04 micro s
+Dijkstra = 670 micro s
+Bellman-Ford = 36251.7 micro s
+----------------------
