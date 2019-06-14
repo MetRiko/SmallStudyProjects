@@ -1,0 +1,58 @@
+Sprawko
+
+I. Wstęp teoretyczny
+	Algorytm symulowanego wyżarzania (SW, ang. simulated annealing (SA)) jest algorytmem heurystycznym. Jego nazwa pochodzi od operacji obróbki cieplnej metali wykorzstywanej w metalurgii, która polega na nagrzaniu materiału do określonej temperatury, wytrzymaniu przy tej temperaturze oraz następnie powolnym studzeniu. W algorytmie występują następujące elementy:
+	- Temperatura początkowa i temperatura aktualna.
+	- Aktualny stan obiektu (aktualne rozwiązanie) oraz nowy proponowany obiekt na miejsce starego. 
+	- Energia obiektu aktualnego i proponowanego na jego miejsce opisująca jakość rozwiązania.
+	- Funkcja ochładzająca obiekt (zmniejszająca temperaturę) np. mnożenie temperatury przez stałą.
+	- *Temperatura minimalna jeżeli warunku końcowego nie określa konkretny czas wykonywania).
+
+	Uproszczony wygląd algorytmu:
+	init(C) // Zainicjowanie (wygenerowanie) pierwszego rozwiązania (w dowolny sposób)
+	for T = Tmax to Tmin: // Aktualna temperatura T
+		Ec = E(C) // Energia aktualnego obiektu
+		N = next(C) // Stworzenie (zaproponowanie) nowego obiektu (rozwiązania) na miejsce starego
+		En = E(N) // Energia nowego obiektu
+		dE = En - Ec // Różnica energii
+		if dE > 0: // Logiczny wybór lepszego rozwiązania
+			C = N
+		else if exp(dE/T) > rand(0,1): // Heurystyka
+			C = N
+
+	Uproszczony wygląd algorytmu zastosowanego w zadaniu:
+	init(C) // Zainicjowanie (wygenerowanie) pierwszego rozwiązania (w dowolny sposób)
+	while(duration(current_time)): // Planowany czas wykonywania algorytmu
+		T = T * a // Zmniejszanie temperatury mnożąc ją przez stałą
+		Ec = E(C) // E(c) = -distance(c)
+		N = next(C) // Pojedynczy swap dwóch losowych elmentów rozwiązania
+		En = E(N) 
+		dE = En - Ec 
+		if dE > 0: 
+			C = N
+		else if exp(dE/T) > rand(0,1): 
+			C = N
+
+II. Opis najważniejszych klas w projekcie
+	Rand - generowanie liczb pseudolosowych
+	Graph - wczytywanie i przechowywanie grafu
+	SimAnn - ciało algorytmu SW
+	SimAnn::State - klasa bazowa dla obiektu ochładzanego w algorytmie SW
+	SimAnnStateTSP : public SimAnn::State - klasa dla obiektu ochładzanego w algorytmie SW
+
+III. Wyniki:
+
+tabelki wartość drogi 
+
+Pliki:
+ftv47.atsp
+rbg403.arsp
+ftv170.atsp
+
++ błąd względny (w %)
++ 10 razy
++ najlepsze rozwiązanie dla każdego pliku
+
+IV. Wykresy błędów dla każdego pliku
+
+V. Umieścić ścieżkę najlepszego rozwiązania dla każdego pliku

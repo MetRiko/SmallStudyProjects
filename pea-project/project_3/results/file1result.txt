@@ -1,0 +1,213 @@
+================== NEW TEST ==================
+File: data/ftv47.atsp | popAm: 2400 | crossCoe: 0.8 | mutCoe: 0.01 | Time: 300 | Sampling time: 20 | Best known: 1776
+Before:
+1.  (5607)
+2.  (5649)
+3.  (5666)
+4.  (5767)
+5.  (5773)
+
+Time left - 0s | Best dis - 5498 | Rel err - 209.57%
+Time left - 20s | Best dis - 2698 | Rel err - 51.91%
+Time left - 40s | Best dis - 2698 | Rel err - 51.91%
+Time left - 60s | Best dis - 2698 | Rel err - 51.91%
+Time left - 80s | Best dis - 2686 | Rel err - 51.23%
+Time left - 100s | Best dis - 2686 | Rel err - 51.23%
+Time left - 120s | Best dis - 2686 | Rel err - 51.23%
+Time left - 140s | Best dis - 2686 | Rel err - 51.23%
+Time left - 160s | Best dis - 2686 | Rel err - 51.23%
+Time left - 180s | Best dis - 2686 | Rel err - 51.23%
+Time left - 200s | Best dis - 2686 | Rel err - 51.23%
+Time left - 220s | Best dis - 2659 | Rel err - 49.71%
+Time left - 240s | Best dis - 2597 | Rel err - 46.22%
+Time left - 260s | Best dis - 2597 | Rel err - 46.22%
+Time left - 280s | Best dis - 2563 | Rel err - 44.31%
+Time left - 300s | Best dis - 2563 | Rel err - 44.31%
+Final result:
+1.  (2563)
+2.  (2563)
+3.  (2603)
+4.  (2603)
+5.  (2628)
+
+Best path: 0 31 7 23 34 13 15 44 19 45 38 37 10 27 9 33 3 4 24 32 12 17 16 14 35 36 46 18 11 8 6 2 28 42 43 41 40 21 39 5 30 29 1 25 20 22 26 47 0
+
+================== NEW TEST ==================
+File: data/ftv47.atsp | popAm: 960 | crossCoe: 0.8 | mutCoe: 0.01 | Time: 300 | Sampling time: 20 | Best known: 1776
+Before:
+1.  (5711)
+2.  (5742)
+3.  (5892)
+4.  (5931)
+5.  (5935)
+
+Time left - 0s | Best dis - 5711 | Rel err - 221.56%
+Time left - 20s | Best dis - 2686 | Rel err - 51.23%
+Time left - 40s | Best dis - 2523 | Rel err - 42.06%
+Time left - 60s | Best dis - 2428 | Rel err - 36.71%
+Time left - 80s | Best dis - 2367 | Rel err - 33.27%
+Time left - 100s | Best dis - 2337 | Rel err - 31.58%
+Time left - 120s | Best dis - 2337 | Rel err - 31.58%
+Time left - 140s | Best dis - 2374 | Rel err - 33.67%
+Time left - 160s | Best dis - 2318 | Rel err - 30.51%
+Time left - 180s | Best dis - 2315 | Rel err - 30.34%
+Time left - 200s | Best dis - 2315 | Rel err - 30.34%
+Time left - 220s | Best dis - 2315 | Rel err - 30.34%
+Time left - 240s | Best dis - 2315 | Rel err - 30.34%
+Time left - 260s | Best dis - 2315 | Rel err - 30.34%
+Time left - 280s | Best dis - 2315 | Rel err - 30.34%
+Time left - 300s | Best dis - 2315 | Rel err - 30.34%
+Final result:
+1.  (2315)
+2.  (2315)
+3.  (2315)
+4.  (2315)
+5.  (2315)
+
+Best path: 17 18 37 5 31 30 27 9 28 43 2 33 3 29 4 24 6 10 25 0 38 20 15 36 46 13 12 23 7 32 8 11 1 42 26 47 40 41 22 21 44 19 39 45 16 14 35 34 17
+
+================== NEW TEST ==================
+File: data/ftv47.atsp | popAm: 480 | crossCoe: 0.8 | mutCoe: 0.01 | Time: 300 | Sampling time: 20 | Best known: 1776
+Before:
+1.  (5487)
+2.  (5610)
+3.  (5766)
+4.  (5837)
+5.  (5888)
+
+Time left - 0s | Best dis - 5487 | Rel err - 208.95%
+Time left - 20s | Best dis - 2871 | Rel err - 61.65%
+Time left - 40s | Best dis - 2871 | Rel err - 61.65%
+Time left - 60s | Best dis - 2871 | Rel err - 61.65%
+Time left - 80s | Best dis - 2871 | Rel err - 61.65%
+Time left - 100s | Best dis - 2871 | Rel err - 61.65%
+Time left - 120s | Best dis - 2860 | Rel err - 61.03%
+Time left - 140s | Best dis - 2860 | Rel err - 61.03%
+Time left - 160s | Best dis - 2860 | Rel err - 61.03%
+Time left - 180s | Best dis - 2860 | Rel err - 61.03%
+Time left - 200s | Best dis - 2860 | Rel err - 61.03%
+Time left - 220s | Best dis - 2860 | Rel err - 61.03%
+Time left - 240s | Best dis - 2860 | Rel err - 61.03%
+Time left - 260s | Best dis - 2860 | Rel err - 61.03%
+Time left - 280s | Best dis - 2860 | Rel err - 61.03%
+Time left - 300s | Best dis - 2860 | Rel err - 61.03%
+Final result:
+1.  (2860)
+2.  (2860)
+3.  (2860)
+4.  (2860)
+5.  (2860)
+
+Best path: 10 4 24 20 19 44 45 15 46 23 7 34 13 11 8 6 31 5 30 29 3 28 42 43 2 33 32 12 17 16 40 25 0 38 21 41 22 47 27 9 1 26 39 14 35 36 18 37 10
+
+
+
+
+
+
+
+
+
+
+
+================== NEW TEST ==================
+File: data/ftv47.atsp | popAm: 48 | crossCoe: 0.8 | mutCoe: 0.01 | Time: 300 | Sampling time: 20 | Best known: 1776
+Before:
+1.  (6130)
+2.  (6227)
+3.  (6240)
+4.  (6282)
+5.  (6302)
+
+Time left - 0s | Best dis - 6130 | Rel err - 245.15%
+Time left - 20s | Best dis - 5059 | Rel err - 184.85%
+Time left - 40s | Best dis - 5059 | Rel err - 184.85%
+Time left - 60s | Best dis - 5059 | Rel err - 184.85%
+Time left - 80s | Best dis - 5059 | Rel err - 184.85%
+Time left - 100s | Best dis - 5059 | Rel err - 184.85%
+Time left - 120s | Best dis - 5059 | Rel err - 184.85%
+Time left - 140s | Best dis - 5059 | Rel err - 184.85%
+Time left - 160s | Best dis - 5059 | Rel err - 184.85%
+Time left - 180s | Best dis - 5059 | Rel err - 184.85%
+Time left - 200s | Best dis - 5059 | Rel err - 184.85%
+Time left - 220s | Best dis - 5059 | Rel err - 184.85%
+Time left - 240s | Best dis - 5059 | Rel err - 184.85%
+Time left - 260s | Best dis - 5059 | Rel err - 184.85%
+Time left - 280s | Best dis - 5059 | Rel err - 184.85%
+Time left - 300s | Best dis - 5059 | Rel err - 184.85%
+Final result:
+1.  (5059)
+2.  (5059)
+3.  (5059)
+4.  (5059)
+5.  (5059)
+
+Best path: 9 1 2 26 33 0 7 12 34 14 46 13 35 8 29 31 45 43 27 47 15 44 23 16 18 25 42 10 19 40 21 41 22 37 4 3 30 11 32 6 5 39 20 38 36 17 28 24 9
+
+================== NEW TEST ==================
+File: data/ftv47.atsp | popAm: 96 | crossCoe: 0.8 | mutCoe: 0.01 | Time: 300 | Sampling time: 20 | Best known: 1776
+Before:
+1.  (5684)
+2.  (5921)
+3.  (6000)
+4.  (6011)
+5.  (6089)
+
+Time left - 0s | Best dis - 5684 | Rel err - 220.04%
+Time left - 20s | Best dis - 4799 | Rel err - 170.21%
+Time left - 40s | Best dis - 4799 | Rel err - 170.21%
+Time left - 60s | Best dis - 4799 | Rel err - 170.21%
+Time left - 80s | Best dis - 4799 | Rel err - 170.21%
+Time left - 100s | Best dis - 4799 | Rel err - 170.21%
+Time left - 120s | Best dis - 4799 | Rel err - 170.21%
+Time left - 140s | Best dis - 4799 | Rel err - 170.21%
+Time left - 160s | Best dis - 4799 | Rel err - 170.21%
+Time left - 180s | Best dis - 4799 | Rel err - 170.21%
+Time left - 200s | Best dis - 4799 | Rel err - 170.21%
+Time left - 220s | Best dis - 4799 | Rel err - 170.21%
+Time left - 240s | Best dis - 4799 | Rel err - 170.21%
+Time left - 260s | Best dis - 4799 | Rel err - 170.21%
+Time left - 280s | Best dis - 4799 | Rel err - 170.21%
+Time left - 300s | Best dis - 4799 | Rel err - 170.21%
+Final result:
+1.  (4799)
+2.  (4799)
+3.  (4799)
+4.  (4799)
+5.  (4799)
+
+Best path: 20 25 17 15 19 18 36 0 9 31 34 14 16 40 37 8 24 4 27 33 3 12 23 13 44 35 39 5 29 7 30 10 11 1 47 42 43 28 26 21 46 22 2 6 41 45 32 38 20
+
+================== NEW TEST ==================
+File: data/ftv47.atsp | popAm: 240 | crossCoe: 0.8 | mutCoe: 0.01 | Time: 300 | Sampling time: 20 | Best known: 1776
+Before:
+1.  (5859)
+2.  (5906)
+3.  (5912)
+4.  (5921)
+5.  (5950)
+
+Time left - 0s | Best dis - 5859 | Rel err - 229.89%
+Time left - 20s | Best dis - 2372 | Rel err - 33.55%
+Time left - 40s | Best dis - 2372 | Rel err - 33.55%
+Time left - 60s | Best dis - 2372 | Rel err - 33.55%
+Time left - 80s | Best dis - 2372 | Rel err - 33.55%
+Time left - 100s | Best dis - 2372 | Rel err - 33.55%
+Time left - 120s | Best dis - 2372 | Rel err - 33.55%
+Time left - 140s | Best dis - 2372 | Rel err - 33.55%
+Time left - 160s | Best dis - 2372 | Rel err - 33.55%
+Time left - 180s | Best dis - 2372 | Rel err - 33.55%
+Time left - 200s | Best dis - 2372 | Rel err - 33.55%
+Time left - 220s | Best dis - 2372 | Rel err - 33.55%
+Time left - 240s | Best dis - 2372 | Rel err - 33.55%
+Time left - 260s | Best dis - 2353 | Rel err - 32.48%
+Time left - 280s | Best dis - 2353 | Rel err - 32.48%
+Time left - 300s | Best dis - 2353 | Rel err - 32.48%
+Final result:
+1.  (2353)
+2.  (2353)
+3.  (2353)
+4.  (2353)
+5.  (2353)
+
+Best path: 11 8 1 25 0 30 29 4 24 28 42 43 41 2 27 33 5 31 7 12 23 36 46 13 34 14 35 17 18 10 6 3 9 32 16 15 44 19 40 21 39 45 20 22 26 47 38 37 11
