@@ -1,0 +1,9 @@
+===== Capacity : 5000 =====
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 20.001 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 10 micro s 
+	> find: 10.001 micro s 

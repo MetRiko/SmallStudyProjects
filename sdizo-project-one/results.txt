@@ -1,0 +1,100 @@
+===== Capacity : 500 =====
+   [Table]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [Heap]:
+	> insert: 0 micro s 
+	> extract_max: 0 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 1000 =====
+   [Table]:
+	> push_back: 0 micro s 
+	> push_front: 10.001 micro s 
+	> push: 10.001 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [Heap]:
+	> insert: 10.001 micro s 
+	> extract_max: 10 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 2000 =====
+   [Table]:
+	> push_back: 20.001 micro s 
+	> push_front: 30.002 micro s 
+	> push: 20.002 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 10 micro s 
+	> pop: 20.001 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [Heap]:
+	> insert: 0 micro s 
+	> extract_max: 20.002 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 5000 =====
+   [Table]:
+	> push_back: 20.002 micro s 
+	> push_front: 20.002 micro s 
+	> push: 30.002 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 40.001 micro s 
+	> pop: 50.002 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 10 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 10.001 micro s 
+   [Heap]:
+	> insert: 20.002 micro s 
+	> extract_max: 40.003 micro s 
+	> find: 10.001 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 10.001 micro s 
+	> find: 0 micro s 

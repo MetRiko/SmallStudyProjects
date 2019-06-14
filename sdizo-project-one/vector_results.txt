@@ -1,0 +1,102 @@
+===== Capacity : 500 =====
+   [Table]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 1000 =====
+   [Table]:
+	> push_back: 10.001 micro s 
+	> push_front: 10.001 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 2000 =====
+   [Table]:
+	> push_back: 0 micro s 
+	> push_front: 30.001 micro s 
+	> push: 10.001 micro s 
+	> pop_back: 20.001 micro s 
+	> pop_front: 20 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 30 micro s 
+	> find: 0 micro s 
+===== Capacity : 5000 =====
+   [Table]:
+	> push_back: 20 micro s 
+	> push_front: 50.004 micro s 
+	> push: 20.001 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 40.002 micro s 
+	> pop: 50.001 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 10 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 10000 =====
+   [Table]:
+	> push_back: 20 micro s 
+	> push_front: 70.003 micro s 
+	> push: 40.003 micro s 
+	> pop_back: 20.002 micro s 
+	> pop_front: 90.006 micro s 
+	> pop: 20.002 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 20.001 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 20.002 micro s 
+===== Capacity : 20000 =====
+   [Table]:
+	> push_back: 30.002 micro s 
+	> push_front: 80.004 micro s 
+	> push: 100.004 micro s 
+	> pop_back: 50.002 micro s 
+	> pop_front: 160.011 micro s 
+	> pop: 80.004 micro s 
+	> find: 10 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 50.004 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 20.002 micro s 
+	> find: 40.001 micro s 

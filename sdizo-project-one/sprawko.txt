@@ -1,0 +1,70 @@
+I. Krótki wstęp w którym zostaną przedstawione złożoności obliczeniowe operacji w implementowanych
+strukturach na podstawie literatury.
+
+Zaimplementowane struktury:
+A. Table - rozszerzalna tablica dynamiczna
+B. List - lista dwukierunkowa
+C. Heap - Kopiec binarny (maksimum)
+D. BlackRedTree (w skrócie BRT) - Drzewo czerwono-czarne
+
+Operacje mierzone:
+Aa. push/push_back/push_front - wstawianie elementu na dowolnej pozycji/na końcu/na początku do struktury (Table/List)
+Ab. insert - wstawianie nowego elementu do struktury (Heap/BlackRedTree)
+B. find - wyszukiwanie elementu o podanej wartości w strukturze
+C. remove - usuwanie elementu o podanej wartości ze struktury
+
+Możliwe średnie złożoności obliczeniowe wyżej wymienionych struktur:
+		
+		insert	push*	find	remove
+Table 	---				=		=
+List 	 =		O(1)/O(n
+Heap 	
+BRT 	
+
+Możliwe złożoności obliczeniowe operacji na wyżej wymienionych strukturach:
+
+II. Plan eksperymentu.
+A. Implementacja struktur:
+Wszystkie struktury włącznie z programem testującym i funkcjami pomiaru są zaimplementowane przy użyciu języka C++ (standard C++11 lub wyższy). Jakiekolwiek biblioteki zewnętrzne nie są załączane, a zawartość standardowej biblioteki STL nie jest wykorzystywana w bezpośrednich implementacjach struktur.
+B. Wielkość struktur:
+W ilość elementów zawsze jest równa maksymalnej pojemności struktury. Dla tablic maksymalny rozmiar tablicy [capacity] zawsze jest równy ilości przechowywanych elementów.
+C. Przechowywany typ danych:
+Wszystkie elementy przechowywane w strukturach są typu całkowito-liczbowego [int].
+D. Sposób generowania elementów:
+Wszystkie struktury zawierają elementy wygenerowane losowo przy pomocy generatora Mersenne Twister Engine dostępnego w standardowej bibliotece C++ w pliku nagłówkowym <random> pod nazwą "mt19937".
+E. Sposób pomiaru czasu:
+Czas mierzony jest z użyciem funkcji dostępnych w standardowej bibliotece C++ w pliku nagłówkowym <chrono>.
+Czas końcowy jest reprezentowany w postaci średniej z N prób. Na początku każdej próby struktura zawiera dokładnie taką samą ilość elementów, ale same wartości tych elementów są za każdym razem generowane losowo. Czas jest mierzony z dokładnością do 1ms.
+
+III. Zestawienie wyników w formie tabelarycznej i graficznej (czas wykonania operacji w funkcji liczby
+elementów); wyniki należy przedstawić osobno dla poszczególnych operacji.
+
+Rozmiary początkowe struktur: 100, 500, 1000, 5000, 10000
+
+A. Wstawianie nowego elementu
+	a. Table/List
+		- push (losowa pozycja)
+		- push_back (na końcu)
+		- push_front (na początku)
+	b. Heap/BlackRedTree
+		1. insert (zależne od algorytmu struktury)
+
+B. Znajdywanie elementu
+	- find (element dodany w połowie początkowego wypełniania)
+
+C. Usuwanie elementu
+	a. Table/List
+		- pop (losowa pozycja)
+		- pop_back (ostatni element)
+		- pop_front (pierwszy element)
+	b. Heap/BlackRedTree
+		1. remove (losowy element)
+
+
+
+IV. wnioski dotyczące efektywności poszczególnych struktur w zależności od zastosowań, wielkości
+struktury itp., wskazać (jeśli są) przyczyny rozbieżności pomiędzy uzyskanymi eksperymentalnie
+złożonościami, a teoretycznymi,
+V. załączony kod źródłowy w formie elektronicznej (skopiować cały projekt oraz wersję skompilowaną
+programu),
+VI. jednostki w sprawozdaniu powinny być mianowane i mieć zachowaną odpowiednią precyzję. 

@@ -1,0 +1,54 @@
+===== Capacity : 500 =====
+   [Heap]:
+	> insert: 10 micro s 
+	> extract_max: 0 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 1000 =====
+   [Heap]:
+	> insert: 20.001 micro s 
+	> extract_max: 0 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 2000 =====
+   [Heap]:
+	> insert: 0 micro s 
+	> extract_max: 0 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 10 micro s 
+	> find: 0 micro s 
+===== Capacity : 5000 =====
+   [Heap]:
+	> insert: 10 micro s 
+	> extract_max: 20.001 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 10000 =====
+   [Heap]:
+	> insert: 40.003 micro s 
+	> extract_max: 60.002 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 20000 =====
+   [Heap]:
+	> insert: 50.003 micro s 
+	> extract_max: 60.001 micro s 
+	> find: 10 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 

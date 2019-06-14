@@ -1,0 +1,151 @@
+===== Capacity : 500 =====
+   [Table]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 10 micro s 
+   [Heap]:
+	> insert: 10 micro s 
+	> extract_max: 0 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 1000 =====
+   [Table]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 10.001 micro s 
+	> pop_back: 10.001 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [Heap]:
+	> insert: 0 micro s 
+	> extract_max: 0 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 2000 =====
+   [Table]:
+	> push_back: 10.001 micro s 
+	> push_front: 10.001 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 10.001 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 0 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [Heap]:
+	> insert: 0 micro s 
+	> extract_max: 10.001 micro s 
+	> find: 10 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 5000 =====
+   [Table]:
+	> push_back: 0 micro s 
+	> push_front: 20.001 micro s 
+	> push: 40.001 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 50.003 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 20 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 0 micro s 
+	> find: 0 micro s 
+   [Heap]:
+	> insert: 10 micro s 
+	> extract_max: 30.002 micro s 
+	> find: 0 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+===== Capacity : 10000 =====
+   [Table]:
+	> push_back: 30.003 micro s 
+	> push_front: 60.004 micro s 
+	> push: 40.003 micro s 
+	> pop_back: 30.001 micro s 
+	> pop_front: 40.001 micro s 
+	> pop: 40.003 micro s 
+	> find: 0 micro s 
+   [List]:
+	> push_back: 0 micro s 
+	> push_front: 0 micro s 
+	> push: 50.004 micro s 
+	> pop_back: 0 micro s 
+	> pop_front: 0 micro s 
+	> pop: 10.001 micro s 
+	> find: 20.002 micro s 
+   [Heap]:
+	> insert: 10 micro s 
+	> extract_max: 40.003 micro s 
+	> find: 10 micro s 
+   [Red-black tree]:
+	> insert: 0 micro s 
+	> remove: 0 micro s 
+	> find: 0 micro s 
+
+===== Capacity : 20000 =====
+   [Table]:
+        > push_back: 60.003 micro s
+        > push_front: 110.005 micro s
+        > push: 60.006 micro s
+        > pop_back: 80.002 micro s
+        > pop_front: 180.01 micro s
+        > pop: 90.007 micro s
+        > find: 20.001 micro s
+   [List]:
+        > push_back: 0 micro s
+        > push_front: 0 micro s
+        > push: 40.003 micro s
+        > pop_back: 0 micro s
+        > pop_front: 0 micro s
+        > pop: 30.001 micro s
+        > find: 40.002 micro s
+   [Heap]:
+        > insert: 70.003 micro s
+        > extract_max: 40.004 micro s
+        > find: 0 micro s
+   [Red-black tree]:
+        > insert: 10.001 micro s
+        > remove: 0 micro s
+        > find: 0 micro s
