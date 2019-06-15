@@ -1,0 +1,48 @@
+Temat: Tartak
+
+Wątki:
+- drwale,
+- tartak,
+- ciężarówki (odwożące dalej przerobione drewno z tartaku poza mapę),
+- natura (generuje drzewa na mapie),
+- czas (cykl dnia i nocy).
+
+Zasoby:
+- drzewa
+- drewno / przerobione (przez tartak) drewno,
+- piły spalinowe (w magazynie),
+- paliwo do piły spalinowej (w magazynie),
+- jedzenie (jadłodajnia dla drwali),
+- siekiery (w magazynie).
+
+Uwagi:
+- drwal ścina drzewa szybciej gdy jest najedzony i nie może ścinać gdy jest głodny,
+- w nocy drwale wracają do domów, a w dzień wracają do pracy,
+- gdy skończy się paliwo do piły spalinowej drwal może ścinać drzewo siekierą (co jest oczywiście wolniejsze),
+- używanie siekiery przez drwala zwiększa wzrost głodu,
+- gdy drwal zgłodnieje musi udać się do jadłodajni wcześniej odkładając narzędzia do magazynu,
+- gdy nastanie noc drwale odkładają wszystkie narzędzia do magazynu,
+- drzewo może być ścinane przez maksymalnie dwóch drwali,
+- ilość paliwa do pił spalinowych jest ograniczona i uzupełnia się w magazynie na początku każdego dnia.
+
+
+---------------------------
+Czynności drwali:
+> Zmierza do pracy
+> Idzie do magazynu (wziąć/odłożyć narzędzia, załadować paliwo)
+> Zabiera siekierę
+> Zabiera piłę
+> Ładuje paliwo do piły
+> Idzie do drzewa (może być czyjeś)
+> Ścina drzewo
+> Podnosi drewno
+> Idzie do magazynu (z drzewem)
+> Odkłada drewno do magazynu
+> Idzie do jadłodalni
+> Je w jadłodalni
+> Wraca do domu odpocząć
+
+Czynności ciężarówki:
+> Jedzie do tartaku
+> Ładuje drewno
+> Odjeżdża z drewnem
