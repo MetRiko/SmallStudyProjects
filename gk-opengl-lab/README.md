@@ -12,4 +12,4 @@ Stworzenie strony internetowej wykorzystującej technologię WebGL.
 - Wyrenderowanie pudełka o różnych kolorach ścian.
 - Wyrenderowanie szcześciennego pudełka z nałożoną na nim teksturą.
 - Wyrenderowanie czwrorościanu foremnego z nałożoną na nim teksturą.
-- Wygenreowanie i wyrenderowanie piramidy Sierpińskiego.
+- Wygenreowanie i wyrenderowanie kostki Sierpińskiego.
